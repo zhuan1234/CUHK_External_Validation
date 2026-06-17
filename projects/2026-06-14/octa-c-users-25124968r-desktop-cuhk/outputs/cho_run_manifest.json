@@ -1,0 +1,61 @@
+{
+  "input_csv": "C:\\Users\\25124968R\\Desktop\\CUHK\\CUHK_Cho_OD_260614.csv",
+  "variables_xlsx": "C:\\Users\\25124968R\\Desktop\\CUHK\\cho_Variables.xlsx",
+  "output_dir": "C:\\Users\\25124968R\\Documents\\Codex\\2026-06-14\\octa-c-users-25124968r-desktop-cuhk\\outputs",
+  "n_rows": 137,
+  "n_columns": 479,
+  "selected_whole_variables": 75,
+  "category_order": [
+    "Density",
+    "Complexity",
+    "Calibre",
+    "Tortuosity",
+    "Branching Angle"
+  ],
+  "selected_by_category": {
+    "Density": 10,
+    "Complexity": 11,
+    "Calibre": 16,
+    "Tortuosity": 24,
+    "Branching Angle": 14
+  },
+  "retained_by_category": {
+    "Density": 10,
+    "Complexity": 11,
+    "Calibre": 16,
+    "Tortuosity": 23,
+    "Branching Angle": 14
+  },
+  "min_valid_n_threshold": 20,
+  "cohort_alignment": {
+    "reference_octa_csv": "C:\\Users\\25124968R\\Desktop\\CUHK\\CUHK_OCTA_OD_260614.csv",
+    "cho_rows_before_alignment": 137,
+    "cho_unique_ids_before_alignment": 137,
+    "octa_rows": 137,
+    "octa_unique_ids": 137,
+    "cho_ids_not_in_octa": [],
+    "octa_ids_not_in_cho": [],
+    "cho_rows_after_alignment": 137,
+    "cho_unique_ids_after_alignment": 137,
+    "cohort_id_sets_match_after_alignment": true
+  },
+  "outputs": [
+    "cho_analysis_report.md",
+    "cho_biological_validation_pearson.csv",
+    "cho_feature_scaling_summary.csv",
+    "cho_imputation_summary.csv",
+    "cho_model_coefficients.csv",
+    "cho_model_performance.csv",
+    "cho_model_vif.csv",
+    "cho_module_correlation_heatmap.png",
+    "cho_module_correlation_pvalues.csv",
+    "cho_module_correlations.csv",
+    "cho_module_qc_summary.csv",
+    "cho_module_scores_model_dataset.csv",
+    "cho_qc_variables.csv",
+    "cho_run_manifest.json",
+    "cho_scaling_summary.csv",
+    "cho_whole_variable_dictionary_selected.csv"
+  ],
+  "warnings": []
+}

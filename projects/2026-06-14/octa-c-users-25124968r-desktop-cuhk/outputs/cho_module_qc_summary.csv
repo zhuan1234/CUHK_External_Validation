@@ -1,0 +1,6 @@
+﻿category,input_variables,matched_variables,removed_missing_rate_gt_90pct,removed_valid_n_lt_threshold,removed_low_iqr,retained_variables,median_missing_rate,max_missing_rate,min_iqr,median_iqr
+Density,10,10,0,0,0,10,0.0,0.0,0.0008000000000000021,1.986900000000002
+Complexity,11,11,0,0,0,11,0.0,0.0,0.010007758179279902,27.0
+Calibre,16,16,0,0,0,16,0.0,0.0,0.22684999999999977,2.011525
+Tortuosity,24,24,0,0,1,23,0.0,0.0,0.0,0.01587999999999995
+Branching Angle,14,14,0,0,0,14,0.0,0.0,0.030440000000000023,2.9870350000000006

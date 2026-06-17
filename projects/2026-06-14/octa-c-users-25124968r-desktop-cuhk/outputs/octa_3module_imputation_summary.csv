@@ -1,0 +1,6 @@
+﻿variable,source_column,missing_before_imputation,imputation_method,imputation_value
+CCFA_median,CCFA_median_raw,0,median,6.0591
+CT_median,CT_median_raw,0,median,197.9555
+CVI_median,CVI_median_raw,0,median,0.4103
+Age_model,Age,0,median,12.0
+Sex_model,Sex,0,mode for categorical covariate,1.0

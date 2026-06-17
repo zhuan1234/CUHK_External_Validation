@@ -1,0 +1,8 @@
+﻿variable,category,missing_before_imputation,imputation_method,imputation_value
+Density_module_median,Density,0,median,-0.12026058033748005
+Complexity_module_median,Complexity,0,median,-0.11436172111730131
+Calibre_module_median,Calibre,0,median,-0.08871522411208033
+Tortuosity_module_median,Tortuosity,0,median,-0.12258871160209905
+Branching_Angle_module_median,Branching Angle,0,median,-0.04153637271435051
+Age_model,covariate,0,median,12.0
+Sex_model,covariate,0,mode for categorical covariate,1.0

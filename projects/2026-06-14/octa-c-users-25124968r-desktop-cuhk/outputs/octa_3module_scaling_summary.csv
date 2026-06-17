@@ -1,0 +1,5 @@
+﻿variable,z_variable,scale_method,mean,sample_sd
+CCFA_median,CCFA_median_z,R scale style: (x - mean) / sample_sd,5.819510948905109,0.9519112086836016
+CT_median,CT_median_z,R scale style: (x - mean) / sample_sd,199.7356927007299,43.024850100256074
+CVI_median,CVI_median_z,R scale style: (x - mean) / sample_sd,0.40227883211678833,0.061902030555235535
+Age_model,Age_z,R scale style: (x - mean) / sample_sd,12.875912408759124,7.354915578627803

@@ -1,0 +1,46 @@
+{
+  "n": 137,
+  "unique_ids": 137,
+  "sex_mismatch_count": 0,
+  "endpoints": [
+    {
+      "endpoint": "High myopia",
+      "definition": "SE <= -6.00 D",
+      "n": 137,
+      "events": 24,
+      "controls": 113,
+      "event_rate": 0.17518248175182483
+    },
+    {
+      "endpoint": "Moderate myopia one-vs-rest",
+      "definition": "-6.00 D < SE <= -0.50 D",
+      "n": 137,
+      "events": 91,
+      "controls": 46,
+      "event_rate": 0.6642335766423357
+    },
+    {
+      "endpoint": "AL >= 26mm",
+      "definition": "AL >= 26 mm",
+      "n": 137,
+      "events": 25,
+      "controls": 112,
+      "event_rate": 0.18248175182481752
+    }
+  ],
+  "models": [
+    "Model 1 Clinical",
+    "Model 2 Clinical + Cho",
+    "Model 3 Clinical + OCTA",
+    "Model 4 Clinical + OCTA_nonflow",
+    "Model 5 Clinical + OCTA + Cho"
+  ],
+  "outputs": [
+    "reproducible_auc_workflow.R",
+    "reproducible_auc_workflow_results_summary.md",
+    "R_repro_auc_performance.csv",
+    "R_repro_auc_pairwise_differences.csv",
+    "R_repro_endpoint_counts.csv",
+    "R_repro_analysis_dataset.csv"
+  ]
+}

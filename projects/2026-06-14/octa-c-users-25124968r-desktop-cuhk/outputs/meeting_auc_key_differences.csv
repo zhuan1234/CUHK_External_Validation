@@ -1,0 +1,13 @@
+Endpoint,Comparison,Delta CV AUC,95% CI,p,Interpretation
+High myopia (SE <= -6.00D),Cho - OCTA,-0.059,-0.222 to 0.090,0.469,NS; comparable within this sample
+High myopia (SE <= -6.00D),Cho - OCTA_nonflow,0.062,-0.078 to 0.200,0.387,NS; comparable within this sample
+High myopia (SE <= -6.00D),OCTA - OCTA_nonflow,0.121,0.025 to 0.225,0.017,Significant
+High myopia (SE <= -6.00D), Cho - Cho + OCTA,0.009,-0.100 to 0.114,0.886,NS
+Moderate myopia (-6.00D < SE <= -0.50D),Cho - OCTA,-0.018,-0.116 to 0.081,0.734,NS; comparable within this sample
+Moderate myopia (-6.00D < SE <= -0.50D),Cho - OCTA_nonflow,-0.025,-0.110 to 0.076,0.634,NS; comparable within this sample
+Moderate myopia (-6.00D < SE <= -0.50D),OCTA - OCTA_nonflow,-0.007,-0.031 to 0.017,0.635,NS
+Moderate myopia (-6.00D < SE <= -0.50D), Cho vs Cho + OCTA,0.031,-0.039 to 0.103,0.416,NS
+Long axial length (AL >= 26mm),Cho - OCTA,-0.095,-0.212 to 0.019,0.114,NS; comparable within this sample
+Long axial length (AL >= 26mm),Cho - OCTA_nonflow,-0.068,-0.180 to 0.047,0.263,NS; comparable within this sample
+Long axial length (AL >= 26mm),OCTA - OCTA_nonflow,0.027,-0.035 to 0.088,0.383,NS
+Long axial length (AL >= 26mm), Cho - Cho + OCTA,-0.053,-0.121 to 0.007,0.092,NS

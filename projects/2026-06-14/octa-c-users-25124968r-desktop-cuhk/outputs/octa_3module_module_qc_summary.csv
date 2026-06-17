@@ -1,0 +1,5 @@
+﻿module,module_label,input_grid_columns,removed_missing_rate_gt_90pct,removed_low_iqr,retained_columns,median_missing_rate,max_missing_rate,min_iqr,median_iqr
+CCFA,Choriocapillaris Flow Area,63,0,0,63,0.0,0.0,0.0004,1.0464000000000002
+CFA,Choroid Flow Area,63,0,3,60,0.0,0.0,0.0,1.3347000000000007
+CT,Choroid Thickness,63,0,0,63,0.0,0.0072992700729927005,33.123300000000015,72.62370000000001
+CVI,CVI,63,0,4,59,0.0,0.0072992700729927005,0.0,0.09494999999999992

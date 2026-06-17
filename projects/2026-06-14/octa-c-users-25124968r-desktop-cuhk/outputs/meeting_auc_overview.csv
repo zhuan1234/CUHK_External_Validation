@@ -1,0 +1,4 @@
+Endpoint,Events / N,M1 Clinical,M2 + Cho,M3 + OCTA,M4 + OCTA_nonflow,M5 + OCTA + Cho,Meeting message
+High myopia (SE <= -6.00D),24/137,0.487,0.682,0.741,0.62,0.75,Best: M5 + OCTA + Cho
+Moderate myopia (-6.00D < SE <= -0.50D),91/137,0.64,0.644,0.662,0.669,0.693,Best: M5 + OCTA + Cho
+Long axial length (AL >= 26mm),25/137,0.684,0.668,0.763,0.736,0.71,Best: M3 + OCTA

@@ -1,0 +1,2 @@
+﻿comparison,scale,n,pearson_r,pearson_p,icc_2_1_absolute_agreement,bias_mean_difference,sd_difference,loa_lower_95,loa_upper_95,proportional_bias_slope,proportional_bias_p
+Choriocapillaris Flow Area vs Choroid Flow Area,"raw medians, both flow-area modules",140,0.949174840895617,0.0,0.6231103455792928,-1.083377142857143,0.6004251991393784,-2.2602105331703246,0.09345624745603853,-0.4122877492535484,0.0

@@ -1,0 +1,7 @@
+﻿variable,z_variable,scale_method,mean,sample_sd
+Density_module_median,Density_module_z,R scale style: (x - mean) / sample_sd,-0.03535496153829161,0.5658262259328801
+Complexity_module_median,Complexity_module_z,R scale style: (x - mean) / sample_sd,-0.043518135874477275,0.5898769887882386
+Calibre_module_median,Calibre_module_z,R scale style: (x - mean) / sample_sd,-0.03259159932856173,0.8071779303563964
+Tortuosity_module_median,Tortuosity_module_z,R scale style: (x - mean) / sample_sd,-0.10271117437659938,0.3470935586282356
+Branching_Angle_module_median,Branching_Angle_module_z,R scale style: (x - mean) / sample_sd,-0.03006255346462961,0.42151567569963233
+Age_model,Age_z,R scale style: (x - mean) / sample_sd,12.875912408759124,7.354915578627803

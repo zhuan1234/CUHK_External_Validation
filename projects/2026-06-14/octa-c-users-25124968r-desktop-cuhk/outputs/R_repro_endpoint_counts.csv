@@ -1,0 +1,4 @@
+﻿endpoint,definition,n,events,controls,event_rate
+High myopia,SE <= -6.00 D,137,24,113,0.17518248175182483
+Moderate myopia one-vs-rest,-6.00 D < SE <= -0.50 D,137,91,46,0.6642335766423357
+AL >= 26mm,AL >= 26 mm,137,25,112,0.18248175182481752

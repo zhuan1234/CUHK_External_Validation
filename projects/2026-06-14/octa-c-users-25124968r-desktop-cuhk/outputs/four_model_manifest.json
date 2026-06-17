@@ -1,0 +1,57 @@
+{
+  "n": 137,
+  "id_unique": 137,
+  "octa_score_file": "C:\\Users\\25124968R\\Documents\\Codex\\2026-06-14\\octa-c-users-25124968r-desktop-cuhk\\outputs\\octa_3module_module_scores_model_dataset.csv",
+  "cho_score_file": "C:\\Users\\25124968R\\Documents\\Codex\\2026-06-14\\octa-c-users-25124968r-desktop-cuhk\\outputs\\cho_module_scores_model_dataset.csv",
+  "canonical_clinical_source": "octa_3module_module_scores_model_dataset.csv",
+  "sex_mismatch_count": 1,
+  "model_specs": {
+    "Model 1 Clinical": [],
+    "Model 2 Clinical+OCTA": [
+      "CCFA_median",
+      "CT_median",
+      "CVI_median"
+    ],
+    "Model 3 Clinical+Cho": [
+      "Density_module_median",
+      "Complexity_module_median",
+      "Calibre_module_median",
+      "Tortuosity_module_median",
+      "Branching_Angle_module_median"
+    ],
+    "Model 4 Clinical+OCTA+Cho": [
+      "CCFA_median",
+      "CT_median",
+      "CVI_median",
+      "Density_module_median",
+      "Complexity_module_median",
+      "Calibre_module_median",
+      "Tortuosity_module_median",
+      "Branching_Angle_module_median"
+    ],
+    "Model 5 Clinical+OCTA_nonflow": [
+      "CT_median",
+      "CVI_median"
+    ]
+  },
+  "auc_status": "computed_for_SE_threshold_binary_endpoints",
+  "binary_endpoints": {
+    "AL >= 26mm": "AL >= 26 mm",
+    "Any myopia": "SE <= -0.50 D",
+    "High myopia": "SE <= -6.00 D",
+    "Moderate myopia one-vs-rest": "-6.00 D < SE <= -0.50 D"
+  },
+  "outputs": [
+    "four_model_auc_pairwise_differences.csv",
+    "four_model_auc_performance.csv",
+    "four_model_auc_predictions.csv",
+    "four_model_coefficients.csv",
+    "four_model_comparison_report.md",
+    "four_model_continuous_performance.csv",
+    "four_model_manifest.json",
+    "four_model_model4_vif.csv",
+    "four_model_nested_model_tests.csv",
+    "four_model_predictions.csv",
+    "four_model_sex_mismatch_octa_vs_cho.csv"
+  ]
+}

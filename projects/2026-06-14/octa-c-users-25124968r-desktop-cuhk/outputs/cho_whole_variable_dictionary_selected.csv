@@ -1,0 +1,76 @@
+﻿Unnamed: 0,variable,Label,Category,scale invariant,Region,matched_in_csv
+1,VAD,Vessel Area Density,Density,1.0,Whole,True
+2,FDt,Fractal Dimension,Complexity,1.0,Whole,True
+3,VSD,Vessel Skeleton Density,Density,1.0,Whole,True
+4,W_range_mean,Calibre_range_mean,Calibre,,Whole,True
+5,curvtort_mean,Squared curvature tortuosity_mean,Tortuosity,1.0,Whole,True
+6,ang_std_mean,Turning angles_std_mean,Tortuosity,1.0,Whole,True
+7,ang_range_mean,Turning angles_range_mean,Tortuosity,1.0,Whole,True
+8,W_std_mean,Calibre_std_mean,Calibre,,Whole,True
+9,W_max_mean,Calibre_max_mean,Calibre,,Whole,True
+10,Strahler_mean,Strahler_mean,Complexity,1.0,Whole,True
+11,JED_mean,Junctional Exponent Deviation_mean,Branching Angle,1.0,Whole,True
+12,LRtort_mean,Linear regression tortuosity_mean,Tortuosity,1.0,Whole,True
+13,tortD_mean,Tortuosity density_mean,Tortuosity,1.0,Whole,True
+14,FDtort_mean,Fractal tortuosity_mean,Tortuosity,1.0,Whole,True
+15,BA_mean,Branching Angle_mean,Branching Angle,1.0,Whole,True
+16,W_min_mean,Calibre_min_mean,Calibre,,Whole,True
+17,BA_e_mean,Branching Angle(edge)_mean,Branching Angle,1.0,Whole,True
+18,AA_e_mean,Angular Asymmetry(edge)_mean,Branching Angle,1.0,Whole,True
+19,Arc_mean,Arc length_mean,Density,,Whole,True
+20,BC_mean,Branching Coefficient_mean,Branching Angle,1.0,Whole,True
+21,Tortuosity_mean,Distance-based tortuosity_mean,Tortuosity,1.0,Whole,True
+22,level_mean,level_mean,Complexity,1.0,Whole,True
+23,twistort_mean,Twist-based tortuosity_mean,Tortuosity,1.0,Whole,True
+24,AA_mean,Angular Asymmetry_mean,Branching Angle,1.0,Whole,True
+25,inflectort_mean,Inflection count tortuosity_mean,Tortuosity,1.0,Whole,True
+26,ang_m_mean,Turning angles_mean_mean,Tortuosity,1.0,Whole,True
+27,CA_mean,Curve Angle_mean,Tortuosity,1.0,Whole,True
+28,SA_mean,Surface area_mean,Calibre,,Whole,True
+29,LDR_mean,Length Diameter Ratio_mean,Calibre,1.0,Whole,True
+30,AR_mean,Asymmetry Ratio_mean,Branching Angle,1.0,Whole,True
+31,chord_mean,Chord length_mean,Density,,Whole,True
+32,W_mean_mean,Calibre_mean_mean,Calibre,,Whole,True
+33,angtort_mean,Angle-based tortuosity_mean,Tortuosity,1.0,Whole,True
+34,W_range_max,Calibre_range_max,Calibre,,Whole,True
+35,curvtort_max,Squared curvature tortuosity_max,Tortuosity,1.0,Whole,True
+36,ang_std_max,Turning angles_std_max,Tortuosity,1.0,Whole,True
+37,ang_range_max,Turning angles_range_max,Tortuosity,1.0,Whole,True
+38,W_std_max,Calibre_std_max,Calibre,,Whole,True
+39,W_max_max,Calibre_max_max,Calibre,,Whole,True
+40,Strahler_max,Strahler_max,Complexity,1.0,Whole,True
+41,JED_max,Junctional Exponent Deviation_max,Branching Angle,1.0,Whole,True
+42,LRtort_max,Linear regression tortuosity_max,Tortuosity,1.0,Whole,True
+43,tortD_max,Tortuosity density_max,Tortuosity,1.0,Whole,True
+44,FDtort_max,Fractal tortuosity_max,Tortuosity,1.0,Whole,True
+45,BA_max,Branching Angle_max,Branching Angle,1.0,Whole,True
+46,W_min_max,Calibre_min_max,Calibre,,Whole,True
+47,BA_e_max,Branching Angle(edge)_max,Branching Angle,1.0,Whole,True
+48,AA_e_max,Angular Asymmetry(edge)_max,Branching Angle,1.0,Whole,True
+49,Arc_max,Arc length_max,Density,,Whole,True
+50,BC_max,Branching Coefficient_max,Branching Angle,1.0,Whole,True
+51,Tortuosity_max,Distance-based tortuosity_max,Tortuosity,1.0,Whole,True
+52,level_max,level_max,Complexity,1.0,Whole,True
+53,twistort_max,Twist-based tortuosity_max,Tortuosity,1.0,Whole,True
+54,AA_max,Angular Asymmetry_max,Branching Angle,1.0,Whole,True
+55,inflectort_max,Inflection count tortuosity_max,Tortuosity,1.0,Whole,True
+56,ang_m_max,Turning angles_mean_max,Tortuosity,1.0,Whole,True
+57,CA_max,Curve Angle_max,Tortuosity,1.0,Whole,True
+58,SA_max,Surface area_max,Calibre,,Whole,True
+59,LDR_max,Length Diameter Ratio_max,Calibre,1.0,Whole,True
+60,AR_max,Asymmetry Ratio_max,Branching Angle,1.0,Whole,True
+61,chord_max,Chord length_max,Density,,Whole,True
+62,W_mean_max,Calibre_mean_max,Calibre,,Whole,True
+63,angtort_max,Angle-based tortuosity_max,Tortuosity,1.0,Whole,True
+64,N_tree,Number of vessel tree,Complexity,1.0,Whole,True
+65,N_seg,Number of vessel segments,Complexity,1.0,Whole,True
+66,br_den,Branching density,Density,1.0,Whole,True
+67,N_br,Number of branching points,Complexity,1.0,Whole,True
+68,bi_den,Bifurcation density,Density,1.0,Whole,True
+69,N_bi,Number of bifurcation points,Complexity,1.0,Whole,True
+70,N_termi0,Number of nonterminal points,Complexity,1.0,Whole,True
+71,W_termi0,Calibre_nonterminal,Calibre,,Whole,True
+72,Arc_termi0,Arc length_nonterminal,Density,,Whole,True
+73,N_termi1,Number of terminal points,Complexity,1.0,Whole,True
+74,W_termi1,Calibre_terminal,Calibre,,Whole,True
+75,Arc_termi1,Arc length_terminal,Density,,Whole,True

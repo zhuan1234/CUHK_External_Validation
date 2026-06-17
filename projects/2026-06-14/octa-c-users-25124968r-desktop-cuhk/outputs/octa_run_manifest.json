@@ -1,0 +1,39 @@
+{
+  "input_csv": "C:\\Users\\25124968R\\Desktop\\CUHK\\CUHK_OCTA_OD_260614.csv",
+  "output_dir": "C:\\Users\\25124968R\\Documents\\Codex\\2026-06-14\\octa-c-users-25124968r-desktop-cuhk\\outputs",
+  "n_rows": 140,
+  "n_columns": 260,
+  "module_column_counts": {
+    "CCFA": 63,
+    "CFA": 63,
+    "CT": 63,
+    "CVI": 63
+  },
+  "module_retained_counts": {
+    "CCFA": 63,
+    "CFA": 60,
+    "CT": 63,
+    "CVI": 59
+  },
+  "sex_levels_detected": [
+    "1",
+    "2"
+  ],
+  "outputs": [
+    "octa_biological_validation_pairwise_z.csv",
+    "octa_biological_validation_primary_raw.csv",
+    "octa_bland_altman_ccfa_vs_cfa_raw.png",
+    "octa_imputation_summary.csv",
+    "octa_model_coefficients.csv",
+    "octa_model_performance.csv",
+    "octa_model_vif.csv",
+    "octa_module_correlation_heatmap.png",
+    "octa_module_correlation_pvalues.csv",
+    "octa_module_correlations.csv",
+    "octa_module_qc_summary.csv",
+    "octa_module_scores_model_dataset.csv",
+    "octa_qc_columns.csv",
+    "octa_scaling_summary.csv"
+  ],
+  "warnings": []
+}

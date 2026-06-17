@@ -1,0 +1,50 @@
+{
+  "input_csv": "C:\\Users\\25124968R\\Desktop\\CUHK\\CUHK_OCTA_OD_260614.csv",
+  "output_dir": "C:\\Users\\25124968R\\Documents\\Codex\\2026-06-14\\octa-c-users-25124968r-desktop-cuhk\\outputs",
+  "n_rows": 137,
+  "n_columns": 260,
+  "module_column_counts": {
+    "CCFA": 63,
+    "CFA": 63,
+    "CT": 63,
+    "CVI": 63
+  },
+  "module_retained_counts": {
+    "CCFA": 63,
+    "CFA": 60,
+    "CT": 63,
+    "CVI": 59
+  },
+  "sex_levels_detected": [
+    "1",
+    "2"
+  ],
+  "active_module_keys": [
+    "CCFA",
+    "CT",
+    "CVI"
+  ],
+  "excluded_from_final_modules": [
+    "CFA"
+  ],
+  "outputs": [
+    "octa_3module_analysis_report.md",
+    "octa_3module_biological_validation_pairwise_z.csv",
+    "octa_3module_bland_altman_ccfa_vs_ct_z.png",
+    "octa_3module_bland_altman_ccfa_vs_cvi_z.png",
+    "octa_3module_bland_altman_ct_vs_cvi_z.png",
+    "octa_3module_imputation_summary.csv",
+    "octa_3module_model_coefficients.csv",
+    "octa_3module_model_performance.csv",
+    "octa_3module_model_vif.csv",
+    "octa_3module_module_correlation_heatmap.png",
+    "octa_3module_module_correlation_pvalues.csv",
+    "octa_3module_module_correlations.csv",
+    "octa_3module_module_qc_summary.csv",
+    "octa_3module_module_scores_model_dataset.csv",
+    "octa_3module_qc_columns.csv",
+    "octa_3module_run_manifest.json",
+    "octa_3module_scaling_summary.csv"
+  ],
+  "warnings": []
+}

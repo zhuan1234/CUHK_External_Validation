@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1320" viewBox="0 0 1800 1320">
+  <defs>
+    <style>
+      .title { font: 700 34px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 18px Arial, Helvetica, sans-serif; fill: #475569; }
+      .box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; rx: 14; }
+      .box-blue { fill: #eff6ff; stroke: #60a5fa; }
+      .box-green { fill: #ecfdf5; stroke: #34d399; }
+      .box-amber { fill: #fffbeb; stroke: #f59e0b; }
+      .box-purple { fill: #f5f3ff; stroke: #a78bfa; }
+      .box-rose { fill: #fff1f2; stroke: #fb7185; }
+      .section { font: 700 18px Arial, Helvetica, sans-serif; fill: #334155; }
+      .text { font: 400 16px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .small { font: 400 14px Arial, Helvetica, sans-serif; fill: #334155; }
+      .arrow { stroke: #64748b; stroke-width: 2.2; fill: none; marker-end: url(#arrowhead); }
+      .note { font: 700 15px Arial, Helvetica, sans-serif; fill: #be123c; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1800" height="1320" fill="#f8fafc"/>
+  <text x="70" y="58" class="title">Adjusted Modeling Workflow: QC Before Module Construction</text>
+  <text x="70" y="88" class="subtitle">Final cohort n = 137; OD eye; OCTA and Cho IDs aligned; AUC models use binary SE/AL endpoints.</text>
+
+  <!-- Cohort -->
+  <rect x="70" y="135" width="330" height="92" class="box box-amber"/>
+  <text x="95" y="165" class="section">Initial data</text>
+  <text x="95" y="191" class="text">153 patients</text>
+  <text x="95" y="215" class="small">Clinical, refraction, AL, CFP, OCTA</text>
+
+  <rect x="520" y="135" width="330" height="92" class="box box-amber"/>
+  <text x="545" y="165" class="section">Right eye + ID alignment</text>
+  <text x="545" y="191" class="text">OD analytic cohort</text>
+  <text x="545" y="215" class="small">OCTA and Cho matched by ID</text>
+
+  <rect x="970" y="135" width="330" height="92" class="box box-amber"/>
+  <text x="995" y="165" class="section">Final cohort</text>
+  <text x="995" y="191" class="text">n = 137</text>
+  <text x="995" y="215" class="small">Canonical clinical variables from OCTA</text>
+
+  <path d="M400 181 L520 181" class="arrow"/>
+  <path d="M850 181 L970 181" class="arrow"/>
+
+  <!-- OCTA branch -->
+  <text x="95" y="305" class="section">OCTA Branch</text>
+  <rect x="70" y="330" width="330" height="96" class="box box-blue"/>
+  <text x="95" y="362" class="section">OCTA features</text>
+  <text x="95" y="388" class="text">Choroid / choriocapillaris</text>
+  <text x="95" y="412" class="small">63-grid measurements</text>
+
+  <rect x="70" y="475" width="330" height="118" class="box box-blue"/>
+  <text x="95" y="506" class="section">Feature-level QC first</text>
+  <text x="95" y="532" class="small">Remove missing_rate &gt; 90%</text>
+  <text x="95" y="556" class="small">Remove near-zero variation: IQR approx 0</text>
+  <text x="95" y="580" class="note">QC before module construction</text>
+
+  <rect x="70" y="642" width="330" height="104" class="box box-blue"/>
+  <text x="95" y="674" class="section">Module construction</text>
+  <text x="95" y="700" class="small">Median across retained grids</text>
+  <text x="95" y="724" class="small">Median imputation if module missing</text>
+
+  <rect x="70" y="795" width="330" height="104" class="box box-blue"/>
+  <text x="95" y="827" class="section">Scale module scores</text>
+  <text x="95" y="853" class="text">Final OCTA modules</text>
+  <text x="95" y="877" class="small">CCFA + CT + CVI</text>
+
+  <rect x="70" y="948" width="330" height="104" class="box box-blue"/>
+  <text x="95" y="980" class="section">Correlation pruning</text>
+  <text x="95" y="1006" class="small">Exclude CFA due high correlation with CCFA</text>
+  <text x="95" y="1030" class="small">OCTA_nonflow = CT + CVI</text>
+
+  <path d="M235 426 L235 475" class="arrow"/>
+  <path d="M235 593 L235 642" class="arrow"/>
+  <path d="M235 746 L235 795" class="arrow"/>
+  <path d="M235 899 L235 948" class="arrow"/>
+
+  <!-- Cho branch -->
+  <text x="555" y="305" class="section">CFP / Cho Branch</text>
+  <rect x="520" y="330" width="390" height="96" class="box box-green"/>
+  <text x="545" y="362" class="section">CFP / GAN-derived Cho features</text>
+  <text x="545" y="388" class="text">Whole-region variables</text>
+  <text x="545" y="412" class="small">5 biological categories</text>
+
+  <rect x="520" y="475" width="390" height="140" class="box box-green"/>
+  <text x="545" y="506" class="section">Variable-level QC first</text>
+  <text x="545" y="532" class="small">Remove missing_rate &gt; 90%</text>
+  <text x="545" y="556" class="small">Remove near-zero variation: IQR approx 0</text>
+  <text x="545" y="580" class="small">valid_n >= 20 or >= 10%N</text>
+  <text x="545" y="604" class="note">QC before module construction</text>
+
+  <rect x="520" y="664" width="390" height="128" class="box box-green"/>
+  <text x="545" y="696" class="section">Unit harmonization</text>
+  <text x="545" y="722" class="small">Variables have different units</text>
+  <text x="545" y="746" class="small">Median imputation at variable level</text>
+  <text x="545" y="770" class="small">Variable-level z-score</text>
+
+  <rect x="520" y="841" width="390" height="128" class="box box-green"/>
+  <text x="545" y="873" class="section">Module construction</text>
+  <text x="545" y="899" class="small">Median of retained z-scored variables</text>
+  <text x="545" y="923" class="small">Scale final module scores</text>
+  <text x="545" y="947" class="small">Density, Complexity, Calibre, Tortuosity, Branching Angle</text>
+
+  <path d="M715 426 L715 475" class="arrow"/>
+  <path d="M715 615 L715 664" class="arrow"/>
+  <path d="M715 792 L715 841" class="arrow"/>
+
+  <!-- Models -->
+  <text x="1045" y="305" class="section">Modeling</text>
+  <rect x="1000" y="330" width="340" height="90" class="box box-purple"/>
+  <text x="1025" y="362" class="section">Model 1: Clinical</text>
+  <text x="1025" y="390" class="text">Age + Sex</text>
+
+  <rect x="1000" y="455" width="340" height="90" class="box box-purple"/>
+  <text x="1025" y="487" class="section">Model 2: Clinical + Cho</text>
+  <text x="1025" y="515" class="text">Age + Sex + 5 Cho modules</text>
+
+  <rect x="1000" y="580" width="340" height="90" class="box box-purple"/>
+  <text x="1025" y="612" class="section">Model 3: Clinical + OCTA</text>
+  <text x="1025" y="640" class="text">Age + Sex + CCFA + CT + CVI</text>
+
+  <rect x="1000" y="705" width="340" height="90" class="box box-purple"/>
+  <text x="1025" y="737" class="section">Model 4: OCTA_nonflow</text>
+  <text x="1025" y="765" class="text">Age + Sex + CT + CVI</text>
+
+  <rect x="1000" y="830" width="340" height="104" class="box box-purple"/>
+  <text x="1025" y="862" class="section">Model 5: OCTA + Cho</text>
+  <text x="1025" y="890" class="text">Age + Sex + OCTA modules</text>
+  <text x="1025" y="914" class="text">+ 5 Cho modules</text>
+
+  <path d="M400 847 C640 847, 850 625, 1000 625" class="arrow"/>
+  <path d="M400 1000 C650 1000, 850 750, 1000 750" class="arrow"/>
+  <path d="M910 905 C950 905, 970 500, 1000 500" class="arrow"/>
+  <path d="M400 847 C690 847, 825 882, 1000 882" class="arrow"/>
+  <path d="M910 905 C950 905, 970 882, 1000 882" class="arrow"/>
+
+  <!-- Evaluation -->
+  <text x="1440" y="305" class="section">Evaluation</text>
+  <rect x="1400" y="330" width="330" height="126" class="box box-rose"/>
+  <text x="1425" y="362" class="section">Binary endpoints</text>
+  <text x="1425" y="388" class="small">Any myopia: SE <= -0.50D</text>
+  <text x="1425" y="412" class="small">High myopia: SE <= -6D</text>
+  <text x="1425" y="436" class="small">Moderate: -6D < SE <= -0.50D</text>
+
+  <rect x="1400" y="505" width="330" height="90" class="box box-rose"/>
+  <text x="1425" y="537" class="section">Long axial length</text>
+  <text x="1425" y="565" class="text">AL >= 26 mm</text>
+
+  <rect x="1400" y="644" width="330" height="126" class="box box-rose"/>
+  <text x="1425" y="676" class="section">AUC comparison</text>
+  <text x="1425" y="704" class="small">Logistic regression probabilities</text>
+  <text x="1425" y="728" class="small">Repeated 5-fold CV AUC</text>
+  <text x="1425" y="752" class="small">Paired bootstrap delta AUC</text>
+
+  <rect x="1400" y="820" width="330" height="126" class="box box-rose"/>
+  <text x="1425" y="852" class="section">Main interpretation</text>
+  <text x="1425" y="880" class="small">Cho close to OCTA_nonflow for</text>
+  <text x="1425" y="904" class="small">high/moderate myopia and AL >= 26mm</text>
+  <text x="1425" y="928" class="small">Weaker for any myopia</text>
+
+  <path d="M1340 375 L1400 375" class="arrow"/>
+  <path d="M1340 500 C1370 500, 1370 550, 1400 550" class="arrow"/>
+  <path d="M1340 625 C1370 625, 1370 707, 1400 707" class="arrow"/>
+  <path d="M1340 750 C1370 750, 1370 707, 1400 707" class="arrow"/>
+  <path d="M1340 882 C1370 882, 1370 707, 1400 707" class="arrow"/>
+  <path d="M1565 595 L1565 644" class="arrow"/>
+  <path d="M1565 770 L1565 820" class="arrow"/>
+
+  <text x="70" y="1235" class="subtitle">Key methodological correction: feature-level QC is performed before module construction, preventing highly missing or near-zero-variance variables from contributing to module scores.</text>
+  <text x="70" y="1268" class="subtitle">Cho modules are standardized before aggregation because source variables have heterogeneous units; OCTA grid measurements within each retained module are summarized directly by median.</text>
+</svg>
